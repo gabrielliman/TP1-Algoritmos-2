@@ -1,4 +1,6 @@
 # TP1-Algoritmos-2
+  **Gabriel Lima Nunes - 2021032048**
+  
 Implementação do algoritmo LZ78, com o uso de uma trie para armazenar o dicionário, para compressão e descompressão de arquivos de texto
 # Intruções de uso
 Os métodos de compressão e descompressão são utilizados por meio da linha de comando da seguinte forma:
