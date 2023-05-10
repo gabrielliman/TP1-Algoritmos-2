@@ -51,7 +51,6 @@ def comprimir(input, output):
                 saidabin.write(codigo+palavra)
             else: saidabin.write(codigo)
 
-comprimir("13th.txt","saida.txt")
 
 def descomprimir(input, output):
     dicionario=Trie()
@@ -72,4 +71,3 @@ def descomprimir(input, output):
                     saida.write(cadeia + palavra)
                 else:
                     saida.write(cadeia)
-descomprimir("saida.txt", "aidssaida.txt")
