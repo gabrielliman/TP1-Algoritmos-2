@@ -1,18 +1,5 @@
 from trie import Trie
 
-def find_new_substring(entrada, dictionary):
-    """Find substring in the file that is not in the dictionary."""
-    substring = entrada.read(1)
-    if not substring:
-        return ''
-    while dictionary.pesquisaPalavra(substring):
-        letter = entrada.read(1)
-        if not letter:
-            break
-        substring += letter
-    return substring
-
-
 def comprimir(input, output):
     with open(input, 'r') as entrada, open(output, 'wb') as saidabin:
         cadeia=""
